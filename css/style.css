@@ -162,7 +162,7 @@ li {
 .btn-one {
     position: relative;
     display: inline-block;
-    background: #e9212e;
+    background: #1C92CA;
     color: #ffffff;
     font-size: 15px;
     line-height: 60px;
@@ -216,7 +216,7 @@ li {
 }
 
 .btn-two:hover {
-    color: #e9212e;
+    color: #1C92CA;
 }
 
 
@@ -270,7 +270,7 @@ li {
 
 
 .sec-title p {
-    color: #e9212e;
+    color: #1C92CA;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
@@ -706,7 +706,7 @@ li {
 
 .main-menu .navigation>li:hover>a,
 .main-menu .navigation>li.current>a {
-    color: #e9212e;
+    color: #1C92CA;
 }
 
 .main-menu .navigation>li>ul {
@@ -792,7 +792,7 @@ li {
 }
 
 .main-menu .navigation>li>ul>li:hover>a {
-    color: #e9212e;
+    color: #1C92CA;
     padding-left: 70px;
 }
 
@@ -879,7 +879,7 @@ li {
 }
 
 .main-menu .navigation>li>ul>li>ul>li:hover>a {
-    color: #e9212e;
+    color: #1C92CA;
     padding-left: 70px;
 }
 
@@ -934,7 +934,7 @@ li {
 
 .outer-search-box .seach-toggle:hover,
 .outer-search-box .seach-toggle.active {
-    color: #e9212e;
+    color: #1C92CA;
     background: #ededed;
 }
 
@@ -1034,14 +1034,14 @@ li {
 }
 
 .cart-box a:hover span:before {
-    color: #e9212e;
+    color: #1C92CA;
 }
 
 .cart-box a span.number {
     position: relative;
     display: inline-block;
     float: left;
-    color: #e9212e;
+    color: #1C92CA;
     font-size: 14px;
     line-height: 14px;
     font-weight: 600;
@@ -1101,7 +1101,7 @@ li {
 }
 
 .header-contact-info li:hover .single-item .icon span:before {
-    color: #e9212e;
+    color: #1C92CA;
 }
 
 .header-contact-info li .single-item .icon,
@@ -1162,6 +1162,6 @@ li {
 
 .header-social-links-style1 li a:hover i {
     color: #ffffff;
-    background: #e9212e;
+    background: #1C92CA;
     transform: rotate(360deg);
 }
