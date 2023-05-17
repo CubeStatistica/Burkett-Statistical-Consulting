@@ -1225,31 +1225,7 @@ li {
 
 .main-slider .slide-content .btn-box a {}
 
-.main-slider .slide-content .btn-box a.project-view-button {
-    position: relative;
-    display: inline-block;
-    margin-left: 35px;
-    color: #ffffff;
-    font-size: 15px;
-    line-height: 56px;
-    font-weight: 500;
-    font-family: 'Rubik', sans-serif;
-    transition: all 500ms ease;
-}
 
-.main-slider .slide-content .btn-box a.project-view-button:hover {
-    color: #e9212e;
-}
-
-.main-slider .slide-content .btn-box a.project-view-button:before {
-    position: absolute;
-    left: 0;
-    bottom: 16px;
-    right: 0;
-    height: 2px;
-    background: #ffffff;
-    content: "";
-}
 
 /*** 
 =====================================================
