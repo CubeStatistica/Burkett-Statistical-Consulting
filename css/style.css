@@ -1165,3 +1165,70 @@ li {
     background: #1C92CA;
     transform: rotate(360deg);
 }
+
+/*** 
+=====================================================
+	Header style End
+=====================================================
+***/
+
+/*** 
+=====================================================
+	Main Slider style
+=====================================================
+***/
+.main-slider {
+    position: relative;
+    z-index: 10;
+}
+
+.main-slider .tp-caption {
+    z-index: 5;
+}
+
+.main-slider .tp-dottedoverlay {
+    background: none !important;
+}
+
+.main-slider .tparrows {
+    top: 40% !important;
+}
+
+.main-slider .slide-content {
+    position: relative;
+    display: block;
+}
+
+.main-slider .slide-content .big-title {
+    position: relative;
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 1.1em;
+    font-weight: 700;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-slider .slide-content .text {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-slider .slide-content .btn-box {}
+
+.main-slider .slide-content .btn-box a {}
+
+
+
+/*** 
+=====================================================
+	Main Slider style End
+=====================================================
+***/
