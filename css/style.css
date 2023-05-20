@@ -1232,3 +1232,237 @@ li {
 	Main Slider style End
 =====================================================
 ***/
+
+
+/*** 
+=====================================================
+	About Us style Start
+=====================================================
+***/
+.about-area {
+    position: relative;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.about-image-box {
+    position: relative;
+    display: block;
+    max-width: 470px;
+    width: 100%;
+    background: #f6f6f6;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.about-image-box:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #ffffff;
+    content: "";
+    z-index: 1;
+}
+
+.about-image-box .inner-box {
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+.about-image-box .inner-box img {
+    width: 100%;
+}
+
+.about-image-box .inner-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about-image-box .inner-box .overlay .box {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.about-image-box .inner-box .overlay .box .icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.about-image-box .inner-box .overlay .box .icon img {
+    width: auto;
+}
+
+
+.about-image-box .text-box {
+    position: relative;
+    display: block;
+    padding-top: 33px;
+    padding-bottom: 52px;
+    padding-right: 20px;
+    margin-right: 60px;
+    z-index: 1;
+}
+
+.about-image-box .text-box:before {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    font-family: 'icomoon';
+    content: "\e939";
+    color: #ebebeb;
+    font-size: 70px;
+    line-height: 70px;
+    transform: perspective(1200px) rotateX(180deg) translateZ(0px);
+    z-index: -1;
+}
+
+.about-image-box .text-box p {
+    color: #828282;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 17px;
+}
+
+.about-image-box .text-box h3 {
+    color: #3a3a3a;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-image-box .text-box h3 span {
+    color: #1C92CA;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.about-text {
+    position: relative;
+    display: block;
+    padding-left: 100px;
+}
+
+.about-text .sec-title {
+    padding-bottom: 44px;
+}
+
+.about-text .inner-content {
+    position: relative;
+    display: block;
+}
+
+.about-text .inner-content .text {
+    display: block;
+    padding-bottom: 26px;
+}
+
+.about-carousel-box {
+    position: relative;
+    display: block;
+    background: #1C92CA;
+    padding: 41px 41px 37px;
+    z-index: 1;
+}
+
+.about-carousel-box:before {
+    position: absolute;
+    left: 40px;
+    bottom: -30px;
+    font-family: "Flaticon";
+    content: "\f103";
+    color: #1C92CA;
+    font-size: 40px;
+    line-height: 40px;
+    transform: perspective(1200px) rotateY(180deg) translateZ(0px);
+}
+
+.about-carousel-box .single-box {
+    position: relative;
+    display: block;
+}
+
+.about-carousel-box .single-box .icon-holder {
+    width: 90px;
+}
+
+.about-carousel-box .single-box .icon-holder span:before {
+    color: #ffffff;
+    font-size: 90px;
+    line-height: 90px;
+    margin-left: 1px;
+}
+
+.about-carousel-box .single-box .icon-holder,
+.about-carousel-box .single-box .text-holder {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-carousel-box .single-box .text-holder {
+    padding-left: 30px;
+}
+
+.about-carousel-box .single-box .text-holder h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 21px;
+    text-decoration: underline;
+}
+
+.about-carousel-box .single-box .text-holder p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.about-carousel-box.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+
+.about-carousel-box .owl-dots {
+    position: absolute;
+    margin-top: 105px !important;
+    height: 25px;
+    line-height: 25px;
+    left: -10px;
+}
+
+.about-carousel-box .owl-dots .owl-dot {
+    background-image: none;
+    width: 20px;
+    height: 5px;
+    margin: 0px 10px;
+    background: #e1e1e1;
+    border: 2px solid #e1e1e1;
+    padding: 0px;
+    border-radius: 0%;
+    transition: all 500ms ease;
+    display: inline-block;
+}
+
+.about-carousel-box .owl-dots .owl-dot span {
+    display: none;
+}
+
+.about-carousel-box .owl-dots .owl-dot.active {
+    background: #1C92CA;
+    border-color: #1C92CA;
+}
+
+/*** 
+=====================================================
+	About Us style End
+=====================================================
+***/
