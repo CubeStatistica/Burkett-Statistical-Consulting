@@ -1502,18 +1502,18 @@ li {
 }
 
 .single-service-style2:hover .text-holder .icon-holder {
-    border: 4px dotted #e9212e;
+    border: 4px dotted #1C92CA;
     transition: all 700ms ease 700ms;
 }
 
 .single-service-style2:hover .text-holder .icon-holder span:before {
-    color: #e9212e;
+    color: #1C92CA;
     transition: all 700ms ease 800ms;
 }
 
 .single-service-style2:hover .text-holder .inner .read-more a {
     color: #ffffff;
-    background: #e9212e;
+    background: #1C92CA;
     transition: all 700ms ease 900ms;
 }
 
@@ -1680,17 +1680,17 @@ li {
 }
 
 .services-style2-content .owl-carousel .owl-stage-outer .owl-item.active .single-service-style2 .text-holder .icon-holder {
-    border: 4px dotted #e9212e;
+    border: 4px dotted #1C92CA;
     transition: all 700ms ease 700ms;
 }
 
 .services-style2-content .owl-carousel .owl-stage-outer .owl-item.active .single-service-style2 .text-holder .icon-holder span:before {
-    color: #e9212e;
+    color: #1C92CA;
     transition: all 700ms ease 800ms;
 }
 
 .services-style2-content .owl-carousel .owl-stage-outer .owl-item.active .single-service-style2 .text-holder .inner .read-more a {
     color: #ffffff;
-    background: #e9212e;
+    background: #1C92CA;
     transition: all 700ms ease 900ms;
 }
