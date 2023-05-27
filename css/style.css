@@ -1710,3 +1710,133 @@ li {
     background: #1C92CA;
     transition: all 700ms ease 900ms;
 }
+
+/*** 
+=============================================
+    Brand Area Style      
+=============================================
+***/
+.brand-area {
+    position: relative;
+    display: block;
+    background: #f6f6f6;
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+
+.brand-items {
+    position: relative;
+    display: block;
+}
+
+.single-brand-item {
+    position: relative;
+    display: block;
+}
+
+.single-brand-item a {
+    display: block;
+    background: #ffffff;
+    text-align: center;
+    transition: all 700ms ease 200ms;
+}
+
+.single-brand-item a:hover {
+    -webkit-box-shadow: 0px 5px 10px 2px #ebebeb;
+    box-shadow: 0px 5px 10px 2px #ebebeb;
+}
+
+.single-brand-item a img {
+    width: auto;
+    transition: all 900ms ease 200ms;
+    transform: perspective(1200px) rotateY(0deg) translateZ(0px);
+}
+
+.single-brand-item:hover a img {
+    filter: brightness(0%);
+    transform: perspective(1200px) rotateY(360deg) translateZ(0px);
+}
+
+.single-brand-item .overlay-content {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: -35px;
+    width: 130px;
+    margin: 0 auto;
+    opacity: 0;
+    visibility: hidden;
+    padding: 3px 0px 2px;
+    text-align: center;
+    background-color: #e9212e;
+    transition: all 300ms ease 100ms;
+    z-index: 999;
+}
+
+.single-brand-item:hover .overlay-content {
+    bottom: -15px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.single-brand-item .overlay-content:before {
+    font-family: FontAwesome;
+    content: "\f0de";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #e9212e;
+    font-size: 30px;
+}
+
+.single-brand-item .overlay-content p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.brand-items-carousel.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.brand-items-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -115px;
+    margin: 0;
+    display: block;
+}
+
+.brand-items-carousel.owl-carousel .owl-nav [class*="owl-"] {
+    position: relative;
+    display: inline-block;
+    background: #f6f6f6;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #dddddd;
+    line-height: 54px;
+    margin: 0;
+    padding: 0;
+    transition: all 700ms ease 100ms;
+    border-radius: 50%;
+}
+
+.brand-items-carousel.owl-carousel .owl-nav [class*="owl-"] i:before {
+    color: #ababab;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.brand-items-carousel.owl-carousel .owl-nav .owl-next {
+    margin-left: 10px;
+}
+
+.brand-items-carousel.owl-carousel .owl-nav [class*="owl-"]:hover {
+    border-color: #e9212e;
+}
