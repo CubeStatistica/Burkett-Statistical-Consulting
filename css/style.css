@@ -1724,7 +1724,6 @@ li {
     padding-bottom: 90px;
 }
 
-
 #clients {
     background-color: #fff;
     padding: 60px 0;
@@ -1761,3 +1760,228 @@ li {
 #clients img {
     transition: all 0.4s ease-in-out;
 }
+
+/*** 
+=============================================
+    Why Choose Area style
+=============================================
+***/
+.why-choose-area {
+    position: relative;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 110px 0 110px;
+    z-index: 1;
+}
+
+.why-choose-title {
+    position: relative;
+    display: block;
+    padding-bottom: 60px;
+    background: #27282c;
+    max-width: 390px;
+    width: 100%;
+}
+
+.why-choose-title .sec-title {
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 28px;
+}
+
+.why-choose-title .sec-title .icon {
+    position: relative;
+    display: block;
+    margin-bottom: 32px;
+}
+
+.why-choose-title .sec-title .title {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.why-choose-title ul {
+    position: relative;
+    display: block;
+    padding-left: 40px;
+}
+
+.why-choose-title ul li {
+    position: relative;
+    display: block;
+    padding-left: 35px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+
+.why-choose-title ul li:last-child {
+    margin-bottom: 0;
+}
+
+.why-choose-title ul li:before {
+    font-family: 'icomoon';
+    content: "\e935";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    color: #1C92CA;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.why-choose-title .button {
+    position: relative;
+    display: block;
+    margin-top: 52px;
+    z-index: 1;
+}
+
+.why-choose-title .button:before {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    bottom: 0;
+    width: 10px;
+    background: #1C92CA;
+    content: "";
+    z-index: -1;
+}
+
+/* .why-choose-title .button:after {
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    width: 10px;
+    height: 15px;
+    content: "";
+    background: url(../images/icon/button-shape.png);
+    z-index: -1;
+} */
+
+.why-choose-title .button a {
+    position: relative;
+    display: block;
+    background: #1C92CA;
+    color: #ffffff;
+    line-height: 70px;
+    padding: 0 40px 0;
+}
+
+.why-choose-title .button a:hover {
+    background: #1C92CA;
+}
+
+.why-choose-content {
+    position: relative;
+    max-width: 780px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.why-choose-content .single-box {
+    position: relative;
+    display: block;
+    padding: 50px 40px 42px;
+    padding-right: 30px;
+    width: 50%;
+}
+
+.why-choose-content .single-box.redbg {
+    background: #1C92CA;
+}
+
+.why-choose-content .single-box.whitebg {
+    background: #ffffff;
+}
+
+.why-choose-content .single-box.blackbg {
+    background: #27282c;
+}
+
+.why-choose-content .single-box .icon-holder {
+    position: relative;
+    display: block;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.why-choose-content .single-box .icon-holder:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #3281a6;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.why-choose-content .single-box .icon-holder span:before {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.why-choose-content .single-box .text-holder {
+    position: relative;
+    display: block;
+    padding-top: 16px;
+}
+
+.why-choose-content .single-box .text-holder h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 18px;
+}
+
+.why-choose-content .single-box .text-holder p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.why-choose-content .single-box.whitebg .text-holder h3 {
+    color: #1C92CA;
+}
+
+.why-choose-content .single-box.whitebg .text-holder p {
+    color: #828282;
+}
+
+.why-choose-content .single-box.whitebg .icon-holder:before {
+    background: #ffeced;
+}
+
+.why-choose-content .single-box.whitebg .icon-holder span:before {
+    color: #1C92CA;
+}
+
+.why-choose-content .single-box.blackbg .text-holder p {
+    color: #828282;
+}
+
+.why-choose-content .single-box.blackbg .icon-holder:before {
+    background: #36373b;
+}
+
+.why-choose-content .single-box.blackbg .icon-holder span:before {
+    color: #ffffff;
+}
+
+/*** 
+=============================================
+    Why Choose Area style End
+=============================================
+***/
